@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.0"
+  version: "6.1"
   test_modules:
     - zope.browsermenu.tests.test_addMenuItem
     - zope.browsermenu.tests.test_directives
@@ -15,7 +15,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/z/zope.browsermenu/zope_browsermenu-${{ version }}.tar.gz
-  sha256: f17f86b05177760338b193db4cfc325c4fc399dc1e054bade185e0c87ca2eb46
+  sha256: 8322446cd5d9b3dc38b75710c47ca46b45c3f674c42ba1c44c6947bddd169126
 
 build:
   number: 0
